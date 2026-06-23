@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="w-full flex flex-col items-center">
       {/* Main Website Wrapper — bordered container Hero through Footer */}
-      <main className="w-full max-w-[1400px] mx-auto border-[2px] border-b-0 border-[#EEEEEE] bg-white shadow-sm">
+      <main className="w-full max-w-[1400px] mx-auto border-[2px] border-b-0 border-[] bg-white">
         <Hero />
         <Services />
         <Solutions />

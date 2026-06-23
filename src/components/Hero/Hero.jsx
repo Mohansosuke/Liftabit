@@ -4,10 +4,10 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative overflow-hidden px-8 pt-20 pb-20 flex flex-col items-center text-center "
+      className="relative overflow-hidden px-8 pt-40 pb-20 flex flex-col items-center text-center "
       style={{
         background:
-          'radial-gradient(ellipse 80% 60% at 50% 0%, rgba(253, 186, 116, 0.25) 0%, rgba(237, 233, 254, 0.3) 50%, rgba(255,255,255,0) 100%)',
+          '',
       }}
     >
       {/* Decorative blur blobs */}
