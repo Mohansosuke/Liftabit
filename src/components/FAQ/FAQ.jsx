@@ -37,7 +37,7 @@ const FAQItem = ({ item, isOpen, onToggle }) => {
         </div>
       ) : (
         // Inactive/collapsed list style
-        <div className="border-b border-gray-100 last:border-b-0 py-5 transition-colors">
+        <div className="rounded-2xl border border-transparent p-4 transition-all duration-300">
           <button
             onClick={onToggle}
             className="w-full flex items-center justify-between text-left group"
@@ -63,7 +63,7 @@ const FAQItem = ({ item, isOpen, onToggle }) => {
 };
 
 const FAQ = () => {
-  const [openId, setOpenId] = useState(faqItems[0].id);
+  const [openId, setOpenId] = useState(null);
 
   const toggle = (id) => {
     setOpenId((prev) => (prev === id ? null : id));
